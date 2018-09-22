@@ -1,15 +1,20 @@
 package org.itstep.lessons;
 
 public class Cat {
-    String nameCat;
-    int countEyes;
+    public String nameCat;
+    public int countEyes;
 
-    char getFirstLetterName(){
+    public char getFirstLetterName(){
         char[] letters = nameCat.toCharArray();
         return letters[0];
     }
 
-    void printCatNameToConsole(){
+    public void printCatNameToConsole(){
         System.out.println(nameCat);
+    }
+
+    public int getMultEyes(int i){
+        System.out.println(countEyes*i);
+        return countEyes*i;
     }
 }

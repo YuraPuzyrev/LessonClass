@@ -1,14 +1,14 @@
 package org.itstep.lessons;
 
 public class Dog {
-    String colorEyes;
-    int countLegs;
+    public String colorEyes;
+    public int countLegs;
 
-    void colorEyesToConsole(){
+    public void colorEyesToConsole(){
         System.out.println(colorEyes);
     }
 
-    void korenFromLegs(){
+    public void korenFromLegs(){
         System.out.println(Math.sqrt(countLegs));
         }
     }
