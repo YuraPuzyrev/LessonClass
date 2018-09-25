@@ -20,4 +20,19 @@ public class Circle {
         System.out.println("Площадь круга равна = " +pi*(rad*rad));
         return pi*(rad*rad);
     }
+
+    //РАЗБОР В КЛАССЕ
+    /*public int radius;
+
+    public void setRadius(int radius){
+        this.radius = radius;
+    }
+
+    public int getRadius(){
+        return radius;
+    }
+
+    public double getSquare(){
+        return Math.PI*radius*radius;
+    }*/
 }
