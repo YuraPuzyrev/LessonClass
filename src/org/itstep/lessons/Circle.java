@@ -16,9 +16,13 @@ public class Circle {
     }
 
     //узнаем площадь
-    public double sCircle(double rad){
-        System.out.println("Площадь круга равна = " +pi*(rad*rad));
-        return pi*(rad*rad);
+    public double sCircle(double rad) {
+        return pi * (rad * rad);
+    }
+
+    //длина окружности
+    public double lenCircle(double rad){
+        return 2*pi*rad;
     }
 
     //РАЗБОР В КЛАССЕ
