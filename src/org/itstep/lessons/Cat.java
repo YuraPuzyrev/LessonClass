@@ -18,3 +18,4 @@ public class Cat {
         return countEyes*i;
     }
 }
+
