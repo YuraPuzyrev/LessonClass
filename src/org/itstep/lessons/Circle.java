@@ -3,15 +3,16 @@ package org.itstep.lessons;
 public class Circle {
     //свойства
     public double rad;
-    public double pi = 3.14;
+    public double pi;
 
     //задаем радиус
-    public void setRad(double i){
-        rad = i;
+    public Circle(double rad, double pi){
+        this.rad = rad;
+        this.pi = pi;
     }
 
     //узнаем радиус
-    public double getRad(double rad){
+    public double getRad(){
         return rad;
     }
 

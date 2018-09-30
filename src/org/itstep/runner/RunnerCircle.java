@@ -4,9 +4,9 @@ import org.itstep.lessons.Circle;
 
 public class RunnerCircle {
     public static void main(String[] args) {
-        Circle circleOne = new Circle();
+        Circle circleOne = new Circle(3,3.14);
         //узнаем радиус
-        double r = circleOne.getRad(3.0);
+        double r = circleOne.getRad();
         System.out.println("Радиус равен = " +r);
         //узнаем площадь
         double s = circleOne.sCircle(r);
