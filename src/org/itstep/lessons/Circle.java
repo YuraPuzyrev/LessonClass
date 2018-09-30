@@ -1,11 +1,10 @@
 package org.itstep.lessons;
 
 public class Circle {
-    //свойства
     public double rad;
     public double pi;
 
-    //задаем радиус
+    //конструктор
     public Circle(double rad, double pi){
         this.rad = rad;
         this.pi = pi;
