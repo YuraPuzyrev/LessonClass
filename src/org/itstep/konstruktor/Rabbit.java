@@ -42,5 +42,5 @@ public class Rabbit {
     public void printHomeRabbit(){
         System.out.println("Координаты дома зайца: " +x1+ " , " +y1);
     }
-    
+
 }
