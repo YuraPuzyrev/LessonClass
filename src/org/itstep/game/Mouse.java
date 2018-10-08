@@ -13,8 +13,8 @@ public class Mouse {
 
 
     public Mouse(String name) {
-        x = this.xstart = (int) (Math.random() * 100);
-        y = this.ystart = (int) (Math.random() * 100);
+        this.x = this.xstart = (int) (Math.random() * 100);
+        this.y = this.ystart = (int) (Math.random() * 100);
         this.name = name;
         this.color = "Белая";
     }
@@ -34,12 +34,21 @@ public class Mouse {
             this.vectory = true;
         } else if (y >= 99) {
             this.vectory = false;
-            if (vectorx) {
-                x = this.x + 1 + getWind();
-            } else x = x - 1 - getWind();
-            if (vectory) {
-                y = this.y + 1 + getWind();
-            } else y = y - 1 - getWind();
         }
+        if (this.vectorx) {
+            x = x + 1 + getWind();
+        } else x = x - 1 - getWind();
+        if (this.vectory) {
+            y = y + 1 + getWind();
+        } else y = y - 1 - getWind();
+    }
+
+    public void mousePlace() {
+        System.out.println("Точка мыши: " + x + "," + y + ", цвет: " + color + ", имя: " + name);
     }
 }
+
+
+
+
+
